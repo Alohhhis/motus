@@ -4,7 +4,15 @@ import {
     Background,
     BackgroundImage3,
     BackgroundImage2,
-    BackgroundImage1, NavbarDiv, DescriptionDiv, AboutUsDiv, Pictures4Div, PicBlock, ContentDiv, RegistrationDiv
+    BackgroundImage1,
+    NavbarDiv,
+    DescriptionDiv,
+    AboutUsDiv,
+    Pictures4Div,
+    PicBlock,
+    ContentDiv,
+    RegistrationDiv,
+    SubscriptionDiv
 } from "./LandingPageStyles";
 import Navbar from "../Components/Navbar";
 import {DescriptionContainer} from "../Components/DescriptionStyles";
@@ -13,6 +21,7 @@ import AboutUs from "../Components/AboutUs";
 import Picture from "../Assets/Picture4.png";
 import Content from "../Components/Content";
 import Registration from "../Components/Registration";
+import Subscription from "../Components/Subscription";
 
 const LandingPage = () => {
     return (
@@ -40,6 +49,9 @@ const LandingPage = () => {
             <RegistrationDiv>
                 <Registration/>
             </RegistrationDiv>
+            <SubscriptionDiv>
+                <Subscription/>
+            </SubscriptionDiv>
         </Container>
 
     );
