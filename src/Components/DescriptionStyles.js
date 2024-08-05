@@ -21,9 +21,11 @@ export const Pink1 = styled.div `
     background-color: #ff0074;
     grid-column: 2/4;
     padding: 0;
-height: auto;
+    height: auto;
 `
 export const Text1 = styled.p `
+    font-size: 20px;
+
 `
 export const DescriptionContainer = styled.div `
     display: grid;

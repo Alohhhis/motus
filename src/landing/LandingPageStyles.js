@@ -54,12 +54,16 @@ export const BackgroundImage3 = styled('div')({
 export const NavbarDiv = styled.div `
 grid-column: 1/6;
     grid-row: 1/2;
+    margin: 1%;
 `
 export const DescriptionDiv = styled.div `
 grid-column: 1/6;
     grid-row: 2/3;
+    margin: 1%;
 `
 export const AboutUsDiv = styled.div`
 grid-column: 1/6;
     grid-row: 3/4;
+    margin: 1%;
+
 `
