@@ -71,7 +71,6 @@ export const FlashedContainer = styled.div`
 
 `
 export const MiniContainer = styled.div`
-    //display: grid;
     grid-column: 2;
     width: 100%;
     height: auto;
