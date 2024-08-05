@@ -7,7 +7,6 @@ import {
     LogoImg,
     MenuContainer,
     NavbarContainer,
-    NavBlock,
     NavLinks
 } from "./NavbarStyles";
 import Logo from "../Assets/LogoPic.svg";

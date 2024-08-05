@@ -8,7 +8,6 @@ export const Container = styled.div`
     grid-template-columns: repeat(5, 1fr);
     grid-template-rows: auto;
     width: 100%;
-    //min-height: 100vh;
     position: relative;
     overflow: 'hidden';
 `
@@ -62,8 +61,22 @@ grid-column: 1/6;
     margin: 1%;
 `
 export const AboutUsDiv = styled.div`
-grid-column: 1/6;
+    grid-column: 1/6;
     grid-row: 3/4;
+    margin: 1%;
+
+`
+export const Pictures4Div = styled.div`
+ grid-column: 1/4;
+grid-row: 4/11;
+`
+export const PicBlock = styled.img`
+width:100%;
+    height: auto;
+`
+export const ContentDiv = styled.div `
+grid-column: 3/6;
+    grid-row: 10/14;
     margin: 1%;
 
 `

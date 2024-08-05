@@ -29,8 +29,10 @@ export const NavLinks = styled.a`
     margin-left: 4rem;
     text-decoration: none;
     color: black;
-    font-size: 1.1rem;
+    //font-size: 1.1rem;
     font-weight: 600;
+    font-size: 28px;
+
 
     &:hover {
         color: #F02D84;

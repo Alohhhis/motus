@@ -13,8 +13,8 @@ import {
 import Picture2 from "../Assets/Picture2.png";
 import Picture3 from "../Assets/Picture3.svg";
 
-const AboutUs = ()=>{
-    return(
+const AboutUs = () => {
+    return (
         <AboutUsContainer>
             <Pink2>
                 <TitleContainer>

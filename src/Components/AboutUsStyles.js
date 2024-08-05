@@ -3,7 +3,6 @@ import styled from "styled-components";
 export const AboutUsContainer = styled.div `
     display: grid;
     grid-template-columns: repeat(5, 1fr);
-    grid-template-rows: repeat(6,0.1fr);
     grid-gap: 4px;
 `
 export const Pink2 = styled.div `
@@ -14,7 +13,7 @@ export const Pink2 = styled.div `
     height: auto;
 `
 export const TitleContainer = styled.div `
-    border-radius: 30px;
+    border-radius: 50px;
     height: auto;
     margin: 0;
     padding: 20px;
@@ -50,7 +49,7 @@ export const Pink3 = styled.div`
 `
 
 export const TextField3 = styled.div`
-    border-radius: 30px;
+    border-radius: 50px;
     height: 100%;
     margin: 0;
     padding: 20px;
@@ -68,7 +67,7 @@ width: 90%;
 
 
 export const PicBlock3 = styled.div`
-    border-radius: 30px;
+    border-radius: 50px;
     height: auto;
     //margin: 10px;
     padding: 20px;
@@ -88,5 +87,4 @@ export const PicPink = styled.div`
     grid-column: 4/6;
     height: auto;
     background-color: #ff0074;
-
 `
