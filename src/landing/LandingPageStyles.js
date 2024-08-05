@@ -75,8 +75,12 @@ width:100%;
     height: auto;
 `
 export const ContentDiv = styled.div `
-grid-column: 3/6;
+    grid-column: 3/6;
     grid-row: 10/14;
     margin: 1%;
-
+`
+export const RegistrationDiv = styled.div `
+grid-column: 1/6;
+    margin-top: 10%;
+    grid-row: 15/16;
 `
