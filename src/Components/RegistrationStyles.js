@@ -35,7 +35,7 @@ export const TextField10 = styled.div`
     display: flex;
     //justify-content: center;
     padding-left: 5%;
-border-radius: 50px;
+    border-radius: 50px;
     width: 100%;
     height: auto;
     background-color: #ffffff;

@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, {useState} from "react";
 import {
     FormDiv,
     Password,
@@ -43,11 +43,11 @@ const Registration = () => {
     const handleAgreedChange = (e) => setAgreed(e.target.checked);
 
     const handleFocus = (field) => {
-        setFocused({ ...focused, [field]: true });
+        setFocused({...focused, [field]: true});
     };
 
     const handleBlur = (field) => {
-        setFocused({ ...focused, [field]: false });
+        setFocused({...focused, [field]: false});
     };
 
     // const validateEmail = (email) => {
@@ -58,7 +58,7 @@ const Registration = () => {
     const handleSubmit = (e) => {
         e.preventDefault();
         let valid = true;
-        let newErrors = { username: "", email: "", password: "" };
+        let newErrors = {username: "", email: "", password: ""};
 
         if (username === "") {
             valid = false;
@@ -88,13 +88,13 @@ const Registration = () => {
     return (
         <RegistrationContainer>
             <Pic5Div>
-                <Pic5 src={Picture5} alt="" />
+                <Pic5 src={Picture5} alt=""/>
             </Pic5Div>
             <Pink10>
                 <TextField10>
                     <Text10>
                         Хочешь с нами?
-                        <br />
+                        <br/>
                         Регистрируйся!
                     </Text10>
                 </TextField10>
