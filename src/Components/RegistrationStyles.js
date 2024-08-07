@@ -21,7 +21,6 @@ export const Pic5 = styled.img`
 
 export const Pink10 = styled.div`
     text-align: center;
-    //margin-bottom: 20px;
     grid-column: 2/4;
     background-color: #ff0074;
     padding: 0;
@@ -33,13 +32,11 @@ export const Pink10 = styled.div`
 
 export const TextField10 = styled.div`
     display: flex;
-    //justify-content: center;
     padding-left: 5%;
     border-radius: 50px;
     width: 100%;
     height: auto;
     background-color: #ffffff;
-
 `;
 
 export const Text10 = styled.p`
@@ -50,14 +47,12 @@ export const Text10 = styled.p`
 export const FormDiv = styled.div`
     width: 100%;
     grid-column: 4/6;
-    
 `;
 
 export const RegForm = styled.form`
-    //display: flex;
     flex-direction: column;
     display: grid;
-    grid-template-rows: repeat(4,1fr);
+    grid-template-rows: repeat(4, 1fr);
 `;
 
 export const Pink11 = styled.div`
@@ -66,7 +61,6 @@ export const Pink11 = styled.div`
     border: ${(props) => (props.focused ? "1px solid #ff4081" : "1px solid #ccc")};
     padding: 10px;
     border-radius: 4px;
-    //transition: border 0.3s;
 `;
 
 export const Pink12 = styled(Pink11)``;
@@ -90,8 +84,6 @@ export const Username = styled.input`
     outline: none;
 `;
 
-// export const Email = styled(Username)``;
-
 export const Password = styled(Username)``;
 
 export const PoliticsDiv = styled.div`
@@ -107,18 +99,6 @@ export const PoliticsText = styled.span`
     font-size: 14px;
 `;
 
-// const buttonAnimation = keyframes`
-//   0% {
-//     background-color: #ff4081;
-//   }
-//   50% {
-//     background-color: #ff79a6;
-//   }
-//   100% {
-//     background-color: #ff4081;
-//   }
-// `;
-
 export const RegButton = styled.button`
     padding: 10px;
     font-size: 16px;
@@ -127,7 +107,6 @@ export const RegButton = styled.button`
     border: none;
     border-radius: 15px;
     cursor: pointer;
-    // animation:  2s infinite;
     transition: background-color 0.3s;
 
     &:hover {

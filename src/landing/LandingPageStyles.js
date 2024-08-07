@@ -82,9 +82,10 @@ export const ContentDiv = styled.div `
 export const RegistrationDiv = styled.div `
     grid-column: 1/6;
     margin-top: 10%;
-    grid-row: 15/16;
+    //grid-row: 15/16;
 `
 export const SubscriptionDiv = styled.div `
 grid-column: 1/6;
-    grid-row: 17/19;
+    margin-top: 20%;
+    //grid-row: 17/19;
 `

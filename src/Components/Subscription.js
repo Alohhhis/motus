@@ -1,6 +1,6 @@
 import React from "react";
 import {
-    FlashedContainer,
+    FlashedContainer, FreePrice, Grey,
     Level, MiniContainer,
     NewbieContainer,
     Pink13, Pink14, Pink15,
@@ -29,9 +29,9 @@ const Subscription = () => {
                 <Level>
                     -новичок
                 </Level>
-                <Price>
+                <FreePrice>
                     Бесплатно
-                </Price>
+                </FreePrice>
             </MiniContainer>
             </NewbieContainer>
             <FlashedContainer>
