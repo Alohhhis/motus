@@ -23,32 +23,32 @@ const Subscription = () => {
             </Pink13>
             <NewbieContainer>
                 <MiniContainer>
-                <SubscribeName>
-                    Newbie
-                </SubscribeName>
-                <Level>
-                    -новичок
-                </Level>
-                <FreePrice>
-                    Бесплатно
-                </FreePrice>
-            </MiniContainer>
+                    <SubscribeName>
+                        Newbie
+                    </SubscribeName>
+                    <Level>
+                        -новичок
+                    </Level>
+                    <FreePrice>
+                        Бесплатно
+                    </FreePrice>
+                </MiniContainer>
             </NewbieContainer>
             <FlashedContainer>
                 <MiniContainer>
-                <SubscribeName>
-                    Flashed
-                </SubscribeName>
-                <Level>
-                    -прошаренный
-                </Level>
-                <Price>
-                    <p>
-                        499 ₽/мес.
-                    </p>
-                    <p> 2499 ₽ на полгода</p>
-                    <p>4999 ₽ на год</p>
-                </Price>
+                    <SubscribeName>
+                        Flashed
+                    </SubscribeName>
+                    <Level>
+                        -прошаренный
+                    </Level>
+                    <Price>
+                        <p>
+                            499 ₽/мес.
+                        </p>
+                        <p> 2499 ₽ на полгода</p>
+                        <p>4999 ₽ на год</p>
+                    </Price>
                 </MiniContainer>
             </FlashedContainer>
             <Pink14>

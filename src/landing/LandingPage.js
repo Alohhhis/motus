@@ -12,7 +12,7 @@ import {
     PicBlock,
     ContentDiv,
     RegistrationDiv,
-    SubscriptionDiv
+    SubscriptionDiv, FooterDiv
 } from "./LandingPageStyles";
 import Navbar from "../Components/Navbar";
 import {DescriptionContainer} from "../Components/DescriptionStyles";
@@ -22,6 +22,7 @@ import Picture from "../Assets/Picture4.png";
 import Content from "../Components/Content";
 import Registration from "../Components/Registration";
 import Subscription from "../Components/Subscription";
+import Footer from "../Components/Footer";
 
 const LandingPage = () => {
     return (
@@ -52,6 +53,9 @@ const LandingPage = () => {
             <SubscriptionDiv>
                 <Subscription/>
             </SubscriptionDiv>
+            <FooterDiv>
+                <Footer/>
+            </FooterDiv>
         </Container>
 
     );

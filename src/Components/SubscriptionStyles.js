@@ -222,7 +222,7 @@ export const SubscribeButton = styled.button`
     grid-column: 4/6;
     font-size: 25px;
     color: white;
-    height:50%;
+    height: 50%;
     background-color: #ff4081;
     border: none;
     border-radius: 15px;

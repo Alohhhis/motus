@@ -9,7 +9,7 @@ export const Container = styled.div`
     grid-template-rows: auto;
     width: 100%;
     position: relative;
-    overflow: 'hidden';
+    overflow: hidden;
 `
 export const Background = styled('div')({
     position: 'absolute',
@@ -71,7 +71,8 @@ export const Pictures4Div = styled.div`
 grid-row: 4/11;
 `
 export const PicBlock = styled.img`
-width:100%;
+    width: 100%;
+    margin: 1%;
     height: auto;
 `
 export const ContentDiv = styled.div `
@@ -81,11 +82,18 @@ export const ContentDiv = styled.div `
 `
 export const RegistrationDiv = styled.div `
     grid-column: 1/6;
+    margin: 1%;
     margin-top: 10%;
     //grid-row: 15/16;
 `
 export const SubscriptionDiv = styled.div `
 grid-column: 1/6;
+    margin: 1%;
     margin-top: 20%;
     //grid-row: 17/19;
+`
+export const FooterDiv = styled.div `
+grid-column: 1/6;
+    margin: 0;
+    
 `
