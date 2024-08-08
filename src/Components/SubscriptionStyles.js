@@ -10,6 +10,10 @@ export const SubscriptionContainer = styled.div`
     grid-template-columns: repeat(5, 1fr);
     grid-template-rows: repeat(4, 0.5fr);
     grid-gap: 1%;
+    @media (max-width: 431px) {
+        display: grid;
+        grid-template-columns:repeat(4, 1fr);
+    }
 `;
 
 export const Pink13 = styled.div`
@@ -23,6 +27,12 @@ export const Pink13 = styled.div`
     align-items: center; /* Центрирование по вертикали */
     justify-content: center; /* Центрирование по горизонтали */
     box-sizing: border-box;
+    @media (max-width: 431px) {
+        grid-column: 1/4;
+        grid-row: 1/2;
+        height: auto;
+margin-bottom: 5%;
+    }
 `;
 
 export const TextField13 = styled.div`
@@ -52,6 +62,12 @@ export const NewbieContainer = styled.div`
     background-position: center;
     border-radius: 50px;
     padding: 5%;
+    @media (max-width: 431px) {
+        grid-column: 1/5;
+        grid-row: 2/3;
+        height: auto;
+        margin-bottom: 0;
+    }
 `;
 
 export const MiniContainer = styled.div`
@@ -111,6 +127,13 @@ export const FlashedContainer = styled.div`
     background-position: center;
     border-radius: 50px;
     padding: 5%;
+    @media (max-width: 431px) {
+        grid-column: 1/5;
+        grid-row: 4/5;
+        height: auto;
+margin-top: 5%;
+        margin-bottom: 0;
+    }
 `;
 
 export const Pink14 = styled.div`
@@ -122,6 +145,12 @@ export const Pink14 = styled.div`
     display: flex;
     align-items: stretch;
     box-sizing: border-box;
+    @media (max-width: 431px) {
+        grid-column: 1/5;
+        grid-row: 3/4;
+        height: auto;
+        margin-top: 0;
+    }
 `;
 
 export const TextField14 = styled.div`
@@ -177,6 +206,12 @@ export const Pink15 = styled.div`
     display: flex;
     align-items: stretch;
     box-sizing: border-box;
+    @media (max-width: 431px) {
+        grid-column: 1/5;
+        grid-row: 5/6;
+        height: auto;
+margin-top: 0;
+    }
 `;
 
 export const TextField15 = styled.div`
@@ -231,5 +266,10 @@ export const SubscribeButton = styled.button`
 
     &:hover {
         background-color: #ff79a6;
+    }
+    @media (max-width: 431px) {
+        grid-column: 1/5;
+        grid-row: 6/7;
+        height: 100%;
     }
 `;

@@ -1,13 +1,23 @@
 import styled from "styled-components";
+import Picture2 from "../Assets/Picture2.png"
 
 export const ContentContainer = styled.div `
     display: grid;
     grid-gap: 2%;
     grid-template-columns: repeat(3, 1fr);
+    @media (max-width: 431px) {
+        display: grid;
+        grid-template-columns:repeat(4, 1fr);
+        margin-bottom: 50%;
+        margin-top: 20%;
+    }
 `
 export const Pink5 = styled.div `
     background-color: #ff0074;
     grid-column: 1/4;
+    @media (max-width: 431px) {
+        grid-column: 1/4;
+    } 
 
 `
 export const TextField5 =styled.div `
@@ -25,7 +35,9 @@ export const Text5 = styled.p `
 export const Pink6 = styled.div `
     background-color: #ff0074;
     grid-column: 2/4;
-
+    @media (max-width: 431px) {
+        grid-column: 1/5;
+    }
 
 `
 export const TextField6 =styled.div `
@@ -35,6 +47,11 @@ export const TextField6 =styled.div `
     background-color: #ffffff;
     text-align: center;
     border-radius: 50px;
+    &:hover {
+        background-image: url(${Picture2});
+        background-size: cover;
+        background-position: center;/* Зеленый цвет при наведении */
+    }
 
 
 
@@ -45,6 +62,9 @@ export const Text6 = styled.p `
 export const Pink7 = styled.div `
     background-color: #ff0074;
     grid-column: 2/4;
+    @media (max-width: 431px) {
+        grid-column: 1/5;
+    }
 `
 export const TextField7 =styled.div `
     border-radius: 50px;
@@ -53,6 +73,11 @@ export const TextField7 =styled.div `
     padding: 20px;
     background-color: #ffffff;
     text-align: center;
+    &:hover {
+        background-image: url(${Picture2});
+        background-size: cover;
+        background-position: center;/* Зеленый цвет при наведении */
+    }
 
 
 `
@@ -63,6 +88,9 @@ export const Text7 = styled.p `
 export const Pink8 = styled.div `
     background-color: #ff0074;
     grid-column: 2/4;
+    @media (max-width: 431px) {
+        grid-column: 1/5;
+    }
 `
 export const TextField8 =styled.div `
     border-radius: 50px;
@@ -72,7 +100,11 @@ export const TextField8 =styled.div `
     background-color: #ffffff;
     text-align: center;
 
-
+    &:hover {
+        background-image: url(${Picture2});
+        background-size: cover;
+        background-position: center;/* Зеленый цвет при наведении */
+    }
 `
 export const Text8 = styled.p `
     font-size: 24px;
@@ -81,6 +113,9 @@ export const Text8 = styled.p `
 export const Pink9 = styled.div `
     background-color: #ff0074;
     grid-column: 2/4;
+    @media (max-width: 431px) {
+        grid-column: 1/5;
+    }
 `
 export const TextField9 =styled.div `
     border-radius: 50px;
@@ -89,6 +124,11 @@ export const TextField9 =styled.div `
     padding: 20px;
     background-color: #ffffff;
     text-align: center;
+    &:hover {
+        background-image: url(${Picture2});
+        background-size: cover;
+        background-position: center;/* Зеленый цвет при наведении */
+    }
 
 
 `

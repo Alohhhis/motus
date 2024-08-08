@@ -37,7 +37,7 @@ export const NavLinks = styled.a`
     &:hover {
         color: #F02D84;
     }
-    @media (max-width: 800px) {
+    @media (max-width: 1000px) {
         display: none;
     }
 `;
@@ -45,7 +45,7 @@ export const NavLinks = styled.a`
 export const MenuContainer = styled.div`
     display: none; // Скрыть меню иконку на десктопе
 
-    @media (max-width: 768px) {
+    @media (max-width: 1000px) {
         display: block; // Показать меню иконку на мобильных устройствах
     }
 `;

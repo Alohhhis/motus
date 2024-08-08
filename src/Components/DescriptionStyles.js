@@ -2,6 +2,9 @@ import styled from "styled-components";
 
 export const PicBlock1 = styled.div`
     grid-column: 4/6;
+    @media (max-width: 431px) {
+        grid-column: 1/6; 
+    }
 `
 export const Pic1 = styled.img`
     grid-column: 4/6;
@@ -23,6 +26,10 @@ export const Pink1 = styled.div`
     grid-column: 2/4;
     padding: 0;
     height: auto;
+    @media (max-width: 431px) {
+        grid-column: 1/6; 
+        margin-top: 40%;
+    }
 `
 export const Text1 = styled.p`
     font-size: 20px;

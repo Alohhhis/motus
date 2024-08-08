@@ -10,6 +10,11 @@ export const Container = styled.div`
     width: 100%;
     position: relative;
     overflow: hidden;
+    @media (max-width: 431px) {
+        grid-template-columns:repeat(4, 1fr);
+        grid-template-rows: auto;
+
+    }
 `
 export const Background = styled('div')({
     position: 'absolute',
@@ -54,21 +59,39 @@ export const NavbarDiv = styled.div `
 grid-column: 1/6;
     grid-row: 1/2;
     margin: 1%;
+    @media (max-width: 431px) {
+        grid-column: 1/5;
+        grid-row: 1/2;
+    }
 `
 export const DescriptionDiv = styled.div `
 grid-column: 1/6;
     grid-row: 2/3;
     margin: 1%;
+    @media (max-width: 431px) {
+        grid-column: 1/5;
+        grid-row: 2/3;
+    }
 `
 export const AboutUsDiv = styled.div`
     grid-column: 1/6;
     grid-row: 3/4;
     margin: 1%;
+    margin-top: 20%;
+    @media (max-width: 431px) {
+        grid-column: 1/5;
+        grid-row: 3/4;
+    }
 
 `
 export const Pictures4Div = styled.div`
  grid-column: 1/4;
 grid-row: 4/11;
+    @media (max-width: 431px) {
+        grid-column: 1/5;
+        grid-row: 4/5;
+        margin-bottom: 0;
+    }
 `
 export const PicBlock = styled.img`
     width: 100%;
@@ -79,21 +102,37 @@ export const ContentDiv = styled.div `
     grid-column: 3/6;
     grid-row: 10/14;
     margin: 1%;
+    @media (max-width: 431px) {
+        grid-column: 1/5;
+        grid-row: 5/6;
+    }
 `
 export const RegistrationDiv = styled.div `
     grid-column: 1/6;
     margin: 1%;
-    margin-top: 10%;
+    margin-top: 15%;
     //grid-row: 15/16;
+    @media (max-width: 431px) {
+        grid-column: 1/5;
+        grid-row: 6/7;
+    }
 `
 export const SubscriptionDiv = styled.div `
 grid-column: 1/6;
     margin: 1%;
     margin-top: 20%;
+    @media (max-width: 431px) {
+        grid-column: 1/5;
+        grid-row: 7/8;
+    }
     //grid-row: 17/19;
 `
 export const FooterDiv = styled.div `
 grid-column: 1/6;
     margin: 0;
-    
+    margin-top: 15%;
+    @media (max-width: 431px) {
+        grid-column: 1/5;
+        grid-row: 8/9;
+    }
 `

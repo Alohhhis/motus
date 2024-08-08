@@ -6,12 +6,21 @@ export const RegistrationContainer = styled.div`
     grid-gap: 1%;
     width: 100%;
     margin: 0 auto;
+    @media (max-width: 431px) {
+        display: grid;
+        grid-template-columns:repeat(4, 1fr);
+   
+    }
 `;
 
 export const Pic5Div = styled.div`
     grid-column: 1/2;
     display: flex;
     justify-content: center;
+    @media (max-width: 431px) {
+        grid-column: 1/2;
+        grid-row: 1/2;
+    }
 `;
 
 export const Pic5 = styled.img`
@@ -28,6 +37,10 @@ export const Pink10 = styled.div`
     display: flex;
     align-items: stretch;
     box-sizing: border-box;
+    @media (max-width: 431px) {
+        grid-column: 2/5;
+        grid-row: 1/2;
+    }
 `;
 
 export const TextField10 = styled.div`
@@ -47,6 +60,10 @@ export const Text10 = styled.p`
 export const FormDiv = styled.div`
     width: 100%;
     grid-column: 4/6;
+    @media (max-width: 431px) {
+        grid-column: 1/5;
+        grid-row: 2/3;
+    }
 `;
 
 export const RegForm = styled.form`
