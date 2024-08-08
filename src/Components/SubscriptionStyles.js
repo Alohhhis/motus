@@ -267,9 +267,10 @@ export const SubscribeButton = styled.button`
     &:hover {
         background-color: #ff79a6;
     }
+
     @media (max-width: 431px) {
         grid-column: 1/5;
         grid-row: 6/7;
-        height: 100%;
+        height: 120%;
     }
 `;

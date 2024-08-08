@@ -3,7 +3,7 @@ import styled from "styled-components";
 export const PicBlock1 = styled.div`
     grid-column: 4/6;
     @media (max-width: 431px) {
-        grid-column: 1/6; 
+        grid-column: 1/6;
     }
 `
 export const Pic1 = styled.img`

@@ -128,11 +128,12 @@ grid-column: 1/6;
     //grid-row: 17/19;
 `
 export const FooterDiv = styled.div `
-grid-column: 1/6;
+    grid-column: 1/6;
     margin: 0;
     margin-top: 15%;
     @media (max-width: 431px) {
         grid-column: 1/5;
         grid-row: 8/9;
+        margin-top: 60%;
     }
 `

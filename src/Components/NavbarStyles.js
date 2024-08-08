@@ -37,6 +37,7 @@ export const NavLinks = styled.a`
     &:hover {
         color: #F02D84;
     }
+
     @media (max-width: 1000px) {
         display: none;
     }
