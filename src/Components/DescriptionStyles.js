@@ -33,6 +33,7 @@ export const Pink1 = styled.div`
 `
 export const Text1 = styled.p`
     font-size: 20px;
+    line-height: 150%;
 
 `
 export const DescriptionContainer = styled.div`

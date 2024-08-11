@@ -35,10 +35,10 @@ const LandingPage = () => {
             <NavbarDiv>
                 <Navbar/>
             </NavbarDiv>
-            <DescriptionDiv>
+            <DescriptionDiv id="about">
                 <Description/>
             </DescriptionDiv>
-            <AboutUsDiv>
+            <AboutUsDiv id="content">
                 <AboutUs/>
             </AboutUsDiv>
             <Pictures4Div>
@@ -47,17 +47,16 @@ const LandingPage = () => {
             <ContentDiv>
                 <Content/>
             </ContentDiv>
-            <RegistrationDiv>
+            <RegistrationDiv id="registration">
                 <Registration/>
             </RegistrationDiv>
-            <SubscriptionDiv>
+            <SubscriptionDiv id="subscription">
                 <Subscription/>
             </SubscriptionDiv>
             <FooterDiv>
                 <Footer/>
             </FooterDiv>
         </Container>
-
     );
 };
 export default LandingPage;

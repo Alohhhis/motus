@@ -20,54 +20,36 @@ const Navbar = () => {
         {
             text: "О чем мы",
             icon: <InfoIcon/>,
+            href: "#about",
         },
         {
             text: "Контент",
             icon: <HomeIcon/>,
+            href: "#content",
         },
         {
             text: "Регистрация",
             icon: <InfoIcon/>,
+            href: "#registration",
         },
         {
             text: "Подписка",
             icon: <InfoIcon/>,
+            href: "#subscription",
         }
     ];
+
     return (
         <NavbarContainer>
             <LogoContainer>
                 <LogoImg src={Logo} alt="* motus — [mɔtys] (lat.) движение"/>
             </LogoContainer>
             <LinksContainer>
-                <NavLinks href="">О чем мы</NavLinks>
-                <NavLinks href="">Контент</NavLinks>
-                <NavLinks href="">Регистрация</NavLinks>
-                <NavLinks href="">Подписка</NavLinks>
+                <NavLinks href="#about">О чем мы</NavLinks>
+                <NavLinks href="#content">Контент</NavLinks>
+                <NavLinks href="#registration">Регистрация</NavLinks>
+                <NavLinks href="#subscription">Подписка</NavLinks>
             </LinksContainer>
-            <MenuContainer>
-                <HiOutlineBars3 onClick={() => setOpenMenu(true)}/>
-            </MenuContainer>
-            <Drawer open={openMenu} onClose={() => setOpenMenu(false)} anchor={"right"}>
-                <Box
-                    sx={{width: 250}}
-                    role="presentation"
-                    onClick={() => setOpenMenu(false)}
-                    onKeyDown={() => setOpenMenu(false)}
-                >
-                    <List>
-                        {menuOptions.map((item) => (
-                            <ListItem key={item.text} disablePadding>
-                                <ListItemButton>
-                                    <ListItemIcon>{item.icon}</ListItemIcon>
-                                    <ListItemText primary={item.text}/>
-                                </ListItemButton>
-                            </ListItem>
-                        ))}
-                    </List>
-                    <Divider/>
-                </Box>
-            </Drawer>
         </NavbarContainer>
     );
 };

@@ -19,10 +19,12 @@ export const LogoImg = styled.img`
 
 export const LinksContainer = styled.div`
     grid-column: 3 / 6;
-    margin-right: 5%;
+    //margin-right: 5%;
     display: flex;
     justify-content: flex-end;
     align-items: center;
+    
+    //justify-content: space-between;
 `;
 
 export const NavLinks = styled.a`
@@ -31,7 +33,8 @@ export const NavLinks = styled.a`
     color: black;
     //font-size: 1.1rem;
     font-weight: 600;
-    font-size: 28px;
+    font-size: 22px;
+    
 
 
     &:hover {

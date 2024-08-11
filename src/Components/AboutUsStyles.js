@@ -85,6 +85,8 @@ export const Text3 = styled.p`
 width: 90%;
     margin: 2%;
     font-size: 20px;
+    line-height: 150%;
+
 `
 
 

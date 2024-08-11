@@ -130,7 +130,7 @@ export const FlashedContainer = styled.div`
     @media (max-width: 431px) {
         grid-column: 1/5;
         grid-row: 4/5;
-        height: auto;
+        height: 120px;
 margin-top: 5%;
         margin-bottom: 0;
     }
@@ -168,7 +168,7 @@ export const Text14 = styled.ul`
     margin-bottom: 20%;
     line-height: 3dvh;
     text-align: left;
-    font-size: 24px;
+    font-size: 18px;
 
 
     li {
@@ -230,7 +230,7 @@ export const Text15 = styled.ul`
     margin-bottom: 20%;
     line-height: 3dvh;
     text-align: left;
-    font-size: 24px;
+    font-size: 18px;
 
     li {
         position: relative; /* Устанавливаем относительное позиционирование для ::before */

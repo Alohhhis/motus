@@ -10,6 +10,7 @@ export const Container = styled.div`
     width: 100%;
     position: relative;
     overflow: hidden;
+    scroll-behavior: smooth;
     @media (max-width: 431px) {
         grid-template-columns:repeat(4, 1fr);
         grid-template-rows: auto;

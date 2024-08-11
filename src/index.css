@@ -11,3 +11,9 @@ code {
     font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+@font-face {
+    font-family: "stolzl_book";
+    src: local("stolzl_book"), url("../src/Fonts/stolzl_book.otf") format("truetype");
+    font-weight: normal;
+
+}
