@@ -47,7 +47,7 @@ width: 100%;
     height: auto;
 `
 export const PicBlock2 = styled.div `
-    grid-column: 1/5;
+    grid-column: 1/4;
     grid-row: 2/3;
     @media (max-width: 431px) {
         grid-column: 3/5;

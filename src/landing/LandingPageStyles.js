@@ -1,7 +1,7 @@
 import styled from "styled-components";
 import BackgroundSVG1 from '../Assets/background1.svg';
-import BackgroundSVG2 from '../Assets/background1.svg';
-import BackgroundSVG3 from '../Assets/background1.svg';
+import BackgroundSVG2 from '../Assets/background2.svg';
+import BackgroundSVG3 from '../Assets/background3.svg';
 
 export const Container = styled.div`
     display: grid;
@@ -26,35 +26,34 @@ export const Background = styled('div')({
     zIndex: -1,
     display: 'flex',
     flexDirection: 'column',
-
 });
 
 export const BackgroundImage1 = styled('div')({
-    width: '100%',
-    height: '200vh',
-    background: `url(${BackgroundSVG1}) no-repeat`,
-    backgroundSize: 'cover',
-    backgroundPosition: '10% center',
-
+    width: '200%',
+    height: '800vh',
+    background: `url(${BackgroundSVG1}) no-repeat left top`,
+    backgroundSize: 'contain',
+    marginTop: '20%',
 });
-
 
 export const BackgroundImage2 = styled('div')({
-    width: '100%',
-    height: '500vh',
-    background: `url(${BackgroundSVG2}) no-repeat`,
-    backgroundSize: 'cover',
-    marginLeft: '-20%',
+    width: '150%',
+    height: '900vh',
+    background: `url(${BackgroundSVG2}) no-repeat center right`,
+    backgroundSize: 'contain',
+    marginTop: '10%',
+    marginLeft: '0%',
 });
-
 
 export const BackgroundImage3 = styled('div')({
-    width: '100%',
-    height: '180vh',
-    background: `url(${BackgroundSVG3}) no-repeat `,
-    backgroundSize: 'cover',
-    backgroundPosition: '-40% center',
+    width: '200%',
+    height: '500vh',
+    background: `url(${BackgroundSVG3}) no-repeat center center`,
+    backgroundSize: 'contain',
+    marginLeft: '-20%',
+    marginBottom: '80%',
 });
+
 
 export const NavbarDiv = styled.div `
 grid-column: 1/6;
