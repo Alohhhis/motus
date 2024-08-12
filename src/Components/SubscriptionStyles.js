@@ -78,7 +78,7 @@ export const NewbieContainer = styled.div`
     @media (max-width: 431px) {
         grid-column: 1/5;
         grid-row: 2/3;
-        height: 100px;
+        height: 120px;
         margin-bottom: 0;
     }
 `;
@@ -98,7 +98,7 @@ export const SubscribeName = styled.p`
         font-size: 28px;
     }
     @media (max-width: 431px) {
-        font-size: 24px;
+        font-size: 35px;
     }
 `;
 
@@ -132,7 +132,9 @@ export const FlashedContainer = styled.div`
     background-size: cover;
     background-position: center;
     border-radius: 50px;
-    padding: 10%;
+    padding: 0;
+    padding-left: 10%;
+    padding-right: 10%;
     height: auto;
 
     color: black;
