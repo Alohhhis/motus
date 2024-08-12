@@ -3,7 +3,6 @@ import styled from "styled-components";
 export const Box = styled.div`
     padding: 2%;
     background: #e52c7e;
-    gap: 1em;
     @media (max-width: 431px) {
         font-size: 12px;
     }
@@ -23,6 +22,9 @@ export const FooterContainer = styled.div`
     @media (max-width: 431px) {
         font-size: 12px;
     }
+    @media (max-width: 1281px) {
+font-size: 16px ;    }
+
 `;
 
 export const Column = styled.div`
@@ -69,13 +71,14 @@ export const FooterLink = styled.a`
     color: #fff;
     font-size: 18px;
     text-decoration: none;
+    margin-left: 0;
 
     &:hover {
         color: #000000;
         transition: 200ms ease-in;
     }
     @media (max-width: 431px) {
-        font-size: 12px;
+        font-size: 9px;
     }
 `;
 
@@ -102,6 +105,7 @@ export const HeaderNavList = styled.ul`
 
 export const HeaderNavListItem = styled.li`
     text-align: center;
+    margin-left: 0;
     @media (max-width: 431px) {
         font-size: 12px;
     }
@@ -111,7 +115,7 @@ export const SimpText = styled.p`
     color: azure;
     margin: 0;
     @media (max-width: 431px) {
-        font-size: 12px;
+        font-size: 9px;
     }
 `;
 export const FirstLine = styled.div`

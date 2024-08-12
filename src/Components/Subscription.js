@@ -4,7 +4,7 @@ import {
     Level, MiniContainer,
     NewbieContainer,
     Pink13, Pink14, Pink15,
-    Price, SubscribeButton,
+    Price, PriceContainer, SubscribeButton,
     SubscribeName,
     SubscriptionContainer,
     Text13, Text14, Text15,
@@ -23,33 +23,25 @@ const Subscription = () => {
             </Pink13>
             <NewbieContainer>
                 <MiniContainer>
-                    <SubscribeName>
-                        Newbie
-                    </SubscribeName>
-                    <Level>
-                        -новичок
-                    </Level>
-                    <FreePrice>
-                        Бесплатно
-                    </FreePrice>
+                    <SubscribeName>Newbie</SubscribeName>
+                    <Level>-новичок</Level>
+
                 </MiniContainer>
+                <PriceContainer>
+                    <Price>Бесплатно</Price>
+                </PriceContainer>
             </NewbieContainer>
+
             <FlashedContainer>
                 <MiniContainer>
-                    <SubscribeName>
-                        Flashed
-                    </SubscribeName>
-                    <Level>
-                        -прошаренный
-                    </Level>
-                    <Price>
-                        <p>
-                            499 ₽/мес.
-                        </p>
-                        <p> 2499 ₽ на полгода</p>
-                        <p>4999 ₽ на год</p>
-                    </Price>
+                    <SubscribeName>Flashed</SubscribeName>
+                    <Level>-прошаренный</Level>
                 </MiniContainer>
+                <PriceContainer>
+                    <Price>499 ₽/мес.</Price>
+                    <Price>2499 ₽ на полгода</Price>
+                    <Price>4999 ₽ на год</Price>
+                </PriceContainer>
             </FlashedContainer>
             <Pink14>
                 <TextField14>

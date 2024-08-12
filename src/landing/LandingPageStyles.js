@@ -28,31 +28,41 @@ export const Background = styled('div')({
     flexDirection: 'column',
 });
 
-export const BackgroundImage1 = styled('div')({
-    width: '200%',
-    height: '800vh',
-    background: `url(${BackgroundSVG1}) no-repeat left top`,
-    backgroundSize: 'contain',
-    marginTop: '20%',
-});
+export const BackgroundImage1 = styled.div `
+    width: 200%;
+    height: 800vh;
+    background: url(${BackgroundSVG1}) no-repeat left top;
+    background-size: contain;
+    margin-top: 20%;
+    @media (max-width: 431px) {
+        margin-top: 50%;
+margin-bottom: 10%;
+        height: 600vh;
+    }
+`
 
-export const BackgroundImage2 = styled('div')({
-    width: '150%',
-    height: '900vh',
-    background: `url(${BackgroundSVG2}) no-repeat center right`,
-    backgroundSize: 'contain',
-    marginTop: '10%',
-    marginLeft: '0%',
-});
+export const BackgroundImage2 = styled.div `
+    width: 150%;
+    height: 900vh;
+    background: url(${BackgroundSVG2}) no-repeat center right;
+    background-size: contain;
+    margin-top: 10%;
+    margin-left: 0%;
+`
 
-export const BackgroundImage3 = styled('div')({
-    width: '200%',
-    height: '500vh',
-    background: `url(${BackgroundSVG3}) no-repeat center center`,
-    backgroundSize: 'contain',
-    marginLeft: '-20%',
-    marginBottom: '80%',
-});
+export const BackgroundImage3 = styled.div `
+    width: 200%;
+    height: 500vh;
+    background: url(${BackgroundSVG3}) no-repeat center center;
+    background-size: contain;
+    margin-left: -20%;
+    margin-bottom: 80%;
+    @media (max-width: 431px) {
+        margin-bottom: 250%;
+        margin-left: -50%;
+        height: 250vh;
+    }
+`
 
 
 export const NavbarDiv = styled.div `

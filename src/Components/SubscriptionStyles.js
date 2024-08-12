@@ -30,9 +30,10 @@ export const Pink13 = styled.div`
     @media (max-width: 431px) {
         grid-column: 1/4;
         grid-row: 1/2;
-        height: auto;
+        height: 120px;
 margin-bottom: 5%;
     }
+    
 `;
 
 export const TextField13 = styled.div`
@@ -44,103 +45,150 @@ export const TextField13 = styled.div`
     width: 100%;
     height: 100%;
     background-color: #ffffff;
+    @media (max-width: 1281px) {
+        border-radius: 40px;
+    }
+
 `;
 
 export const Text13 = styled.div`
-    font-size: 50px;
-    text-align: center; /* Центрирование текста внутри Text13 */
-    margin: 0; /* Удаление отступов */
+    font-size: 45px;
+    text-align: center;
+    margin: 0;
+    @media (max-width: 1441px) {
+        font-size: 40px;
+    }
+    @media (max-width: 1281px) {
+        font-size: 25px;
+    }
 `;
 
 export const NewbieContainer = styled.div`
     grid-column: 2/4;
     grid-row: 2/3;
     display: grid;
-    grid-template-columns: 1fr 1fr; /* Ensure grid layout for child elements */
+    grid-template-columns: 1fr 1fr; /* Два столбца */
+    align-items: center;
     background-image: url(${NewbieImg});
     background-size: cover;
     background-position: center;
     border-radius: 50px;
-    padding: 5%;
+    padding: 10%;
+    color: black;
+    height: auto;
     @media (max-width: 431px) {
         grid-column: 1/5;
         grid-row: 2/3;
-        height: auto;
+        height: 100px;
         margin-bottom: 0;
     }
 `;
 
 export const MiniContainer = styled.div`
-    grid-column: 1 / span 2; /* Ensure full width in grid */
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    //grid-template-rows: 0.2fr 0.3fr;/* Define two columns for children */
-    gap: 1%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 `;
 
 export const SubscribeName = styled.p`
-    grid-column: 1;
-    grid-row: 1;/* Place in the first column */
     font-size: 30px;
     font-weight: bold;
-    text-align: left;
     margin: 0;
+    text-align: left;
+    @media (max-width: 1281px) {
+        font-size: 28px;
+    }
+    @media (max-width: 431px) {
+        font-size: 24px;
+    }
 `;
 
 export const Level = styled.p`
-    grid-column: 1;
-    grid-row: 1;/* Place in the first column */
     font-size: 20px;
     color: grey;
+    margin: 0;
     text-align: left;
-    margin-top: 15%;
+    @media (max-width: 1281px) {
+        font-size: 18px;
+    }
+    @media (max-width: 431px) {
+        font-size: 16px;
+    }
+
 `;
 
-export const Price = styled.p`
-    grid-column: 2; /* Place in the second column */
+export const FreePrice = styled.p`
     font-style: italic;
-    grid-row: 1;
-    text-align: left;
-    margin-left: 20%;
-    margin-top: 0;
-    margin-bottom: 0;
-    font-size: 20px;
-`;
-export const FreePrice = styled.p `
-    grid-column: 2; /* Place in the second column */
-    font-style: italic;
-    grid-row: 1;
-    text-align: left;
-    margin-left: 40%;
-    margin-top: 20%;
-    margin-bottom: 0;
+    margin: 0;
     font-size: 20px;
 `;
 
 export const FlashedContainer = styled.div`
     grid-column: 4/6;
-    background-image: url(${FlashedImg});
     grid-row: 2/3;
     display: grid;
-    grid-template-columns: 1fr 1fr; /* Ensure grid layout for child elements */
+    grid-template-columns: 1fr 1fr; /* Два столбца */
+    align-items: center;
+    background-image: url(${FlashedImg});
     background-size: cover;
     background-position: center;
     border-radius: 50px;
-    padding: 5%;
+    padding: 10%;
+    height: auto;
+
+    color: black;
     @media (max-width: 431px) {
         grid-column: 1/5;
         grid-row: 4/5;
         height: 120px;
-margin-top: 5%;
+        margin-top: 0;
         margin-bottom: 0;
     }
 `;
+
+export const PriceContainer = styled.div`
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start; /* Выровняем по правой стороне */
+    margin: 0;
+    margin-left: 15%;
+    font-size: 20px;
+    text-align: left;
+
+    p {
+        margin: 0;
+    }
+    @media (max-width: 1281px) {
+margin-left: 10%;
+    }
+    @media (max-width: 431px) {
+        margin-left: 15%;
+    }
+`;
+
+export const Price = styled.p`
+    margin: 0;
+    font-size: 20px;
+    @media (max-width: 1441px) {
+        font-size: 18px;
+    }
+    @media (max-width: 1281px) {
+        font-size: 16px;
+       
+    }
+`;
+
+
+
+
 
 export const Pink14 = styled.div`
     grid-column: 2/4;
     grid-row: 3/4;
     background-color: #ff0074;
     padding: 0;
+    margin-top: auto;
     height: 100%;
     display: flex;
     align-items: stretch;
@@ -148,10 +196,12 @@ export const Pink14 = styled.div`
     @media (max-width: 431px) {
         grid-column: 1/5;
         grid-row: 3/4;
-        height: auto;
+        height: 180px;
         margin-top: 0;
     }
 `;
+
+
 
 export const TextField14 = styled.div`
     display: flex;
@@ -163,12 +213,19 @@ export const TextField14 = styled.div`
     background-color: #ffffff;
 `;
 export const Text14 = styled.ul`
-    list-style: none; /* Убираем стандартные маркеры списка */
-    padding-left: 0; /* Убираем отступ слева */
+    list-style: none;
+    padding-left: 0; 
     margin-bottom: 20%;
     line-height: 3dvh;
     text-align: left;
     font-size: 18px;
+    @media (max-width: 1281px) {
+        font-size: 16px;
+
+    }
+    @media (max-width: 431px) {
+        font-size: 14px;
+    }
 
 
     li {
@@ -209,7 +266,7 @@ export const Pink15 = styled.div`
     @media (max-width: 431px) {
         grid-column: 1/5;
         grid-row: 5/6;
-        height: auto;
+        height: 180px;
 margin-top: 0;
     }
 `;
@@ -231,6 +288,13 @@ export const Text15 = styled.ul`
     line-height: 3dvh;
     text-align: left;
     font-size: 18px;
+    @media (max-width: 1281px) {
+        font-size: 16px;
+
+    }
+    @media (max-width: 431px) {
+        font-size: 14px;
+    }
 
     li {
         position: relative; /* Устанавливаем относительное позиционирование для ::before */
@@ -258,6 +322,7 @@ export const SubscribeButton = styled.button`
     font-size: 25px;
     color: white;
     height: 50%;
+    font-style: italic;
     background-color: #ff4081;
     border: none;
     border-radius: 15px;
@@ -271,6 +336,10 @@ export const SubscribeButton = styled.button`
     @media (max-width: 431px) {
         grid-column: 1/5;
         grid-row: 6/7;
-        height: 120%;
+        height: 150%;
     }
+    @media (max-width: 1281px) {
+        font-size: 22px ;
+    }
+
 `;

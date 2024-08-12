@@ -17,7 +17,13 @@ export const Pink5 = styled.div `
     grid-column: 1/4;
     @media (max-width: 431px) {
         grid-column: 1/4;
-    } 
+    }
+    @media (max-width: 1441px) {
+        margin-top: 5%;
+    }
+    @media (max-width: 1281px) {
+        margin-top: 8%;
+    }
 
 `
 export const TextField5 =styled.div `
@@ -27,10 +33,18 @@ export const TextField5 =styled.div `
     padding: 20px;
     background-color: #ffffff;
     text-align: center;
-
+    @media (max-width: 431px) {
+        border-radius: 40px;
+    }
 `
 export const Text5 = styled.p `
     font-size: 30px;
+    @media (max-width: 1281px) {
+        font-size: 28px;
+    }
+    @media (max-width: 431px) {
+        font-size: 24px;
+    }
 `
 export const Pink6 = styled.div `
     background-color: #ff0074;
@@ -52,12 +66,20 @@ export const TextField6 =styled.div `
         background-size: cover;
         background-position: center;/* Зеленый цвет при наведении */
     }
-
+    @media (max-width: 431px) {
+        border-radius: 40px;
+    }
 
 
 `
 export const Text6 = styled.p `
     font-size: 24px;
+    @media (max-width: 1281px) {
+        font-size: 22px;
+    }
+    @media (max-width: 431px) {
+        font-size: 20px;
+    }
 `
 export const Pink7 = styled.div `
     background-color: #ff0074;
@@ -78,12 +100,19 @@ export const TextField7 =styled.div `
         background-size: cover;
         background-position: center;/* Зеленый цвет при наведении */
     }
-
+    @media (max-width: 431px) {
+        border-radius: 40px;
+    }
 
 `
 export const Text7 = styled.p `
     font-size: 24px;
-
+    @media (max-width: 1281px) {
+        font-size: 22px;
+    }
+    @media (max-width: 431px) {
+        font-size: 20px;
+    }
 `
 export const Pink8 = styled.div `
     background-color: #ff0074;
@@ -105,10 +134,18 @@ export const TextField8 =styled.div `
         background-size: cover;
         background-position: center;/* Зеленый цвет при наведении */
     }
+    @media (max-width: 431px) {
+        border-radius: 40px;
+    }
 `
 export const Text8 = styled.p `
     font-size: 24px;
-
+    @media (max-width: 1281px) {
+        font-size: 22px;
+    }
+    @media (max-width: 431px) {
+        font-size: 20px;
+    }
 `
 export const Pink9 = styled.div `
     background-color: #ff0074;
@@ -129,12 +166,19 @@ export const TextField9 =styled.div `
         background-size: cover;
         background-position: center;/* Зеленый цвет при наведении */
     }
-
+    @media (max-width: 431px) {
+        border-radius: 40px;
+    }
 
 `
 export const Text9 = styled.p `
     font-size: 24px;
-
+    @media (max-width: 1281px) {
+        font-size: 22px;
+    }
+    @media (max-width: 431px) {
+        font-size: 20px;
+    }
 `
 
 

@@ -46,13 +46,7 @@ export const NavLinks = styled.a`
     }
 `;
 
-export const MenuContainer = styled.div`
-    display: none; // Скрыть меню иконку на десктопе
 
-    @media (max-width: 1000px) {
-        display: block; // Показать меню иконку на мобильных устройствах
-    }
-`;
 
 export const NavBlock = styled.nav`
     display: flex;

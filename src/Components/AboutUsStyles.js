@@ -34,12 +34,22 @@ export const TitleContainer = styled.div `
     width: 100%;
     height: auto;
     background-color: #ffffff;
+    @media (max-width: 431px) {
+        border-radius: 40px;
+    }
+
 `
 export const TitleText = styled.p `
     color: black;
     font-size: 34px;
     font-weight: bold;
-    
+    @media (max-width: 1281px) {
+        font-size: 30px;
+    }
+    @media (max-width: 431px) {
+        font-size: 25px;
+        margin-left: 10%;
+    }
     
 `
 export const Pic2 = styled.img `
@@ -78,7 +88,10 @@ export const TextField3 = styled.div`
     background-color: #ffffff;
     text-align: left;
     flex: 1;
-    box-sizing: border-box; // Учитываем padding и border при расчете высоты
+    box-sizing: border-box;
+    @media (max-width: 431px) {
+        border-radius: 40px;
+    }// Учитываем padding и border при расчете высоты
 `
 
 export const Text3 = styled.p`
@@ -86,7 +99,12 @@ width: 90%;
     margin: 2%;
     font-size: 20px;
     line-height: 150%;
-
+    @media (max-width: 1281px) {
+        font-size: 17px;
+    }
+    @media (max-width: 431px) {
+        font-size: 15px;
+    }
 `
 
 

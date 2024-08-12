@@ -34,6 +34,12 @@ export const Pink1 = styled.div`
 export const Text1 = styled.p`
     font-size: 20px;
     line-height: 150%;
+    @media (max-width: 1281px) {
+        font-size: 17px;
+    }
+    @media (max-width: 431px) {
+        font-size: 15px;
+    }
 
 `
 export const DescriptionContainer = styled.div`

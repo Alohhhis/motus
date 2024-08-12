@@ -55,6 +55,13 @@ export const TextField10 = styled.div`
 export const Text10 = styled.p`
     font-size: 50px;
     text-align: left;
+    @media (max-width: 1281px) {
+        font-size: 45px;
+    }
+    @media (max-width: 431px) {
+        font-size: 25px;
+        margin-left: 10%;
+    }
 `;
 
 export const FormDiv = styled.div`
@@ -63,6 +70,7 @@ export const FormDiv = styled.div`
     @media (max-width: 431px) {
         grid-column: 1/5;
         grid-row: 2/3;
+        margin-top: 5%;
     }
 `;
 
