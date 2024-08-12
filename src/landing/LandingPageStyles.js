@@ -28,7 +28,7 @@ export const Background = styled('div')({
     flexDirection: 'column',
 });
 
-export const BackgroundImage1 = styled.div `
+export const BackgroundImage1 = styled.div`
     width: 200%;
     height: 800vh;
     background: url(${BackgroundSVG1}) no-repeat left top;
@@ -36,12 +36,12 @@ export const BackgroundImage1 = styled.div `
     margin-top: 20%;
     @media (max-width: 431px) {
         margin-top: 50%;
-margin-bottom: 10%;
+        margin-bottom: 10%;
         height: 600vh;
     }
 `
 
-export const BackgroundImage2 = styled.div `
+export const BackgroundImage2 = styled.div`
     width: 150%;
     height: 900vh;
     background: url(${BackgroundSVG2}) no-repeat center right;
@@ -50,7 +50,7 @@ export const BackgroundImage2 = styled.div `
     margin-left: 0%;
 `
 
-export const BackgroundImage3 = styled.div `
+export const BackgroundImage3 = styled.div`
     width: 200%;
     height: 500vh;
     background: url(${BackgroundSVG3}) no-repeat center center;
@@ -65,8 +65,8 @@ export const BackgroundImage3 = styled.div `
 `
 
 
-export const NavbarDiv = styled.div `
-grid-column: 1/6;
+export const NavbarDiv = styled.div`
+    grid-column: 1/6;
     grid-row: 1/2;
     margin: 1%;
     @media (max-width: 431px) {
@@ -74,8 +74,8 @@ grid-column: 1/6;
         grid-row: 1/2;
     }
 `
-export const DescriptionDiv = styled.div `
-grid-column: 1/6;
+export const DescriptionDiv = styled.div`
+    grid-column: 1/6;
     grid-row: 2/3;
     margin: 1%;
     @media (max-width: 431px) {
@@ -95,8 +95,8 @@ export const AboutUsDiv = styled.div`
 
 `
 export const Pictures4Div = styled.div`
- grid-column: 1/4;
-grid-row: 4/11;
+    grid-column: 1/4;
+    grid-row: 4/11;
     @media (max-width: 431px) {
         grid-column: 1/5;
         grid-row: 4/5;
@@ -108,7 +108,7 @@ export const PicBlock = styled.img`
     margin: 1%;
     height: auto;
 `
-export const ContentDiv = styled.div `
+export const ContentDiv = styled.div`
     grid-column: 3/6;
     grid-row: 10/14;
     margin: 1%;
@@ -117,7 +117,7 @@ export const ContentDiv = styled.div `
         grid-row: 5/6;
     }
 `
-export const RegistrationDiv = styled.div `
+export const RegistrationDiv = styled.div`
     grid-column: 1/6;
     margin: 1%;
     margin-top: 15%;
@@ -127,8 +127,8 @@ export const RegistrationDiv = styled.div `
         grid-row: 6/7;
     }
 `
-export const SubscriptionDiv = styled.div `
-grid-column: 1/6;
+export const SubscriptionDiv = styled.div`
+    grid-column: 1/6;
     margin: 1%;
     margin-top: 20%;
     @media (max-width: 431px) {
@@ -137,7 +137,7 @@ grid-column: 1/6;
     }
     //grid-row: 17/19;
 `
-export const FooterDiv = styled.div `
+export const FooterDiv = styled.div`
     grid-column: 1/6;
     margin: 0;
     margin-top: 15%;

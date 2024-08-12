@@ -61,11 +61,13 @@ export const TextField6 =styled.div `
     background-color: #ffffff;
     text-align: center;
     border-radius: 50px;
+
     &:hover {
         background-image: url(${Picture2});
         background-size: cover;
-        background-position: center;/* Зеленый цвет при наведении */
+        background-position: center;
     }
+
     @media (max-width: 431px) {
         border-radius: 40px;
     }
@@ -164,7 +166,7 @@ export const TextField9 =styled.div `
     &:hover {
         background-image: url(${Picture2});
         background-size: cover;
-        background-position: center;/* Зеленый цвет при наведении */
+        background-position: center;
     }
     @media (max-width: 431px) {
         border-radius: 40px;

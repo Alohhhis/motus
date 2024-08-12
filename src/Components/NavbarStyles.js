@@ -19,22 +19,18 @@ export const LogoImg = styled.img`
 
 export const LinksContainer = styled.div`
     grid-column: 3 / 6;
-    //margin-right: 5%;
     display: flex;
     justify-content: flex-end;
     align-items: center;
-    
-    //justify-content: space-between;
+
 `;
 
 export const NavLinks = styled.a`
     margin-left: 4rem;
     text-decoration: none;
     color: black;
-    //font-size: 1.1rem;
     font-weight: 600;
     font-size: 22px;
-    
 
 
     &:hover {
@@ -45,8 +41,6 @@ export const NavLinks = styled.a`
         display: none;
     }
 `;
-
-
 
 export const NavBlock = styled.nav`
     display: flex;

@@ -48,7 +48,6 @@ export const TextField13 = styled.div`
     @media (max-width: 1281px) {
         border-radius: 40px;
     }
-
 `;
 
 export const Text13 = styled.div`
@@ -67,7 +66,7 @@ export const NewbieContainer = styled.div`
     grid-column: 2/4;
     grid-row: 2/3;
     display: grid;
-    grid-template-columns: 1fr 1fr; /* Два столбца */
+    grid-template-columns: 1fr 1fr; 
     align-items: center;
     background-image: url(${NewbieImg});
     background-size: cover;
@@ -127,7 +126,7 @@ export const FlashedContainer = styled.div`
     grid-column: 4/6;
     grid-row: 2/3;
     display: grid;
-    grid-template-columns: 1fr 1fr; /* Два столбца */
+    grid-template-columns: 1fr 1fr; 
     align-items: center;
     background-image: url(${FlashedImg});
     background-size: cover;
@@ -150,7 +149,7 @@ export const PriceContainer = styled.div`
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: flex-start; /* Выровняем по правой стороне */
+    align-items: flex-start;
     margin: 0;
     margin-left: 15%;
     font-size: 20px;
@@ -179,10 +178,6 @@ export const Price = styled.p`
     }
 `;
 
-
-
-
-
 export const Pink14 = styled.div`
     grid-column: 2/4;
     grid-row: 3/4;
@@ -200,8 +195,6 @@ export const Pink14 = styled.div`
         margin-top: 0;
     }
 `;
-
-
 
 export const TextField14 = styled.div`
     display: flex;
@@ -229,24 +222,24 @@ export const Text14 = styled.ul`
 
 
     li {
-        position: relative; /* Устанавливаем относительное позиционирование для ::before */
-        padding-left: 2em; /* Оставляем место для иконки */
-        margin-bottom: 0.5em; /* Отступ между пунктами списка */
+        position: relative; 
+        padding-left: 2em; 
+        margin-bottom: 0.5em;
 
         &::before {
-            content: ''; /* Необходим для отображения псевдоэлемента */
-            position: absolute; /* Абсолютное позиционирование для иконки */
-            left: 0; /* Позиция слева */
-            top: 50%; /* Позиция по вертикали (центруется относительно высоты элемента li) */
-            transform: translateY(-50%); /* Центрирование по вертикали */
-            width: 1em; /* Ширина иконки */
-            height: 1em; /* Высота иконки */
-            background: url(${PinkIcon}) no-repeat center center; /* Устанавливаем кастомную иконку */
-            background-size: contain; /* Сохраняем пропорции изображения */
+            content: '';
+            position: absolute; 
+            left: 0; 
+            top: 50%; 
+            transform: translateY(-50%);
+            width: 1em; 
+            height: 1em; 
+            background: url(${PinkIcon}) no-repeat center center; 
+            background-size: contain; 
         }
         &:last-child {
-            color: grey; /* Серый цвет текста для последнего элемента */
-            text-decoration: line-through; /* Перечеркивание текста для последнего элемента */
+            color: grey; 
+            text-decoration: line-through; 
 
             &::before {
                 background: url(${GreyIcon}) no-repeat center center; /* Иконка для последнего элемента */
@@ -282,8 +275,8 @@ export const TextField15 = styled.div`
 `;
 
 export const Text15 = styled.ul`
-    list-style: none; /* Убираем стандартные маркеры списка */
-    padding-left: 0; /* Убираем отступ слева */
+    list-style: none; 
+    padding-left: 0; 
     margin-bottom: 20%;
     line-height: 3dvh;
     text-align: left;
@@ -297,20 +290,20 @@ export const Text15 = styled.ul`
     }
 
     li {
-        position: relative; /* Устанавливаем относительное позиционирование для ::before */
-        padding-left: 2em; /* Оставляем место для иконки */
-        margin-bottom: 0.5em; /* Отступ между пунктами списка */
+        position: relative; 
+        padding-left: 2em; 
+        margin-bottom: 0.5em; 
 
         &::before {
-            content: ''; /* Необходим для отображения псевдоэлемента */
-            position: absolute; /* Абсолютное позиционирование для иконки */
-            left: 0; /* Позиция слева */
-            top: 50%; /* Позиция по вертикали (центруется относительно высоты элемента li) */
-            transform: translateY(-50%); /* Центрирование по вертикали */
-            width: 1em; /* Ширина иконки */
-            height: 1em; /* Высота иконки */
-            background: url(${GreenIcon}) no-repeat center center; /* Устанавливаем кастомную иконку */
-            background-size: contain; /* Сохраняем пропорции изображения */
+            content: ''; 
+            position: absolute;
+            left: 0; 
+            top: 50%; 
+            transform: translateY(-50%); 
+            width: 1em; 
+            height: 1em; 
+            background: url(${GreenIcon}) no-repeat center center; 
+            background-size: contain; 
         }
     }
 `;

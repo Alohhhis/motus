@@ -91,7 +91,7 @@ export const TextField3 = styled.div`
     box-sizing: border-box;
     @media (max-width: 431px) {
         border-radius: 40px;
-    }// Учитываем padding и border при расчете высоты
+    }
 `
 
 export const Text3 = styled.p`
